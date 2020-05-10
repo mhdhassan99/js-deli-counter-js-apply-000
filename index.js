@@ -12,10 +12,26 @@ function takeANumber(currentLine, name){
   return welcomeMsg;
 }
 
-function nowServing(katzDeliLine) {
-  if (katzDeliLine.length < 1) {
+
+function nowServing(katzLine) {
+  if (katzLine.length < 1) {
     return 'There is nobody waiting to be served!'
   }else {
-    return 'Currently serving ' + katzDeliLine.shift() + '.'
+    return 'Currently serving ' + katzLine.shift() + '.'
   }
 }
+
+
+function currentLine(katzLine) {
+  for (var i = 0; i < katzLine.length; i++) {
+    var name = katzLine[i];
+    
+    if (katzLine.length < 1) {
+      return 'The line is currently empty.'
+    }else {
+      name 
+    }
+  }
+}
+
+
