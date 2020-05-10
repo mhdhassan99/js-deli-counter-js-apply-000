@@ -30,7 +30,7 @@ function currentLine(katzLine) {
   var names = 'The line is currently: '
   for (var i = 0; i < katzLine.length; i++) {
     var name = katzLine[i];
-    names += (i + 1) + '. ' + name ', '
+    names += (i + 1) + '. ' + name + ', '
   }
   return names;
 }
