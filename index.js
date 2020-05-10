@@ -13,7 +13,9 @@ function takeANumber(currentLine, name){
 }
 
 function nowServing(katzDeliLine) {
-  if () {
+  if (katzDeliLine.length < 1) {
+    return 
+  }else {
     return 'Currently serving ' + katzDeliLine.shift() + '.'
   }
 }
