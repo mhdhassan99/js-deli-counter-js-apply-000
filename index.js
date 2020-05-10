@@ -12,4 +12,6 @@ function takeANumber(currentLine, name){
   return welcomeMsg;
 }
 
-
+function nowServing(katzDeliLine) {
+  return katzDeliLine.shift()
+}
