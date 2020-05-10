@@ -30,7 +30,7 @@ function currentLine(katzLine) {
     if (katzLine.length < 1) {
       return 'The line is currently empty.';
     }else {
-       names += i + '.' name + ',';
+       names += i + '.' + name + ',';
     }
   }
   return names;
