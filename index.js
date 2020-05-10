@@ -23,13 +23,14 @@ function nowServing(katzLine) {
 
 
 function currentLine(katzLine) {
+  var names = ''
   for (var i = 0; i < katzLine.length; i++) {
     var name = katzLine[i];
     
     if (katzLine.length < 1) {
       return 'The line is currently empty.'
     }else {
-      name 
+       names += 
     }
   }
 }
