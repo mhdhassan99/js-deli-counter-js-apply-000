@@ -7,5 +7,7 @@
 
 function takeANumber(currentLine, name){
   currentLine.push(name);
-  
+  var position = currentLine.indexOf(name) + 1;
+  var welcomeMsg = ''
+  return 
 }
