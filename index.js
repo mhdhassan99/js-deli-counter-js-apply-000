@@ -31,7 +31,7 @@ function currentLine(katzLine) {
   for (var i = 0; i < katzLine.length; i++) {
     var name = katzLine[i];
     if (i < katzLine.length - 1) {
-      names += `${i + 1}. ${name},`
+      names += `${i + 1}. ${name}, `
     }else {
       names += `${i + 1}. ${name}`
     }
