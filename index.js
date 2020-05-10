@@ -6,5 +6,5 @@
 
 
 function takeANumber(currentLine, name){
-    
+  currentLine.push()
 }
