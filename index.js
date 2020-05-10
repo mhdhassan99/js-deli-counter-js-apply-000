@@ -8,6 +8,6 @@
 function takeANumber(currentLine, name){
   currentLine.push(name);
   var position = currentLine.indexOf(name) + 1;
-  var welcomeMsg = ``
+  var welcomeMsg = `Welcome, ${name} . You are ${position} in line.`
   return welcomeMsg;
 }
