@@ -6,5 +6,5 @@
 
 
 function takeANumber(currentLine, name){
-  currentLine.push('Welcome, ' + name + 'You are number' +.)
+  currentLine.push(name); 
 }
